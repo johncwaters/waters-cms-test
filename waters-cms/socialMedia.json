@@ -1,0 +1,17 @@
+{
+    "socialMedia": {
+        "label": "Social Media",
+        "fields": {
+            "facebook": {
+                "label": "Facebook",
+                "type": "string",
+                "required": true
+            },
+            "instagram": {
+                "label": "Instagram",
+                "type": "string",
+                "required": false
+            }
+        }
+    }
+}

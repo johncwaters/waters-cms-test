@@ -1,42 +1,41 @@
 {
-    "websiteName": "test",
+    "websiteName": "Waters-CMS-Test",
+    "websiteUrl": "",
+    "websiteLogoUrl": "",
     "collections": {
         "contactInfo": {
-            "name": "Contact Info",
             "label": "Contact Info",
             "fields": {
                 "phoneNumber": {
                     "name": "Phone Number",
                     "label": "Phone Number",
                     "type": "string",
-                    "required": true
+                    "required": true,
+                    "value": ""
                 }
             }
         },
         "socialMedia": {
-            "name": "Social Media",
             "label": "Social Media",
             "fields": {
                 "facebook": {
-                    "name": "Facebook",
                     "label": "Facebook",
                     "type": "string",
-                    "required": true
+                    "required": true,
+                    "value": "facebook page here!"
                 },
                 "instagram": {
-                    "name": "Instagram",
                     "label": "Instagram",
                     "type": "string",
-                    "required": false
+                    "required": false,
+                    "value": "mylinkinstagram"
                 }
             }
         },
         "preferences": {
-            "name": "Preferences",
             "label": "Preferences",
             "fields": {
                 "language": {
-                    "name": "Language",
                     "label": "Preferred Language",
                     "type": "select",
                     "required": true,
@@ -45,14 +44,15 @@
                         "Spanish",
                         "French",
                         "German"
-                    ]
+                    ],
+                    "value": "French"
                 },
                 "newsletterSubscription": {
-                    "name": "NewsletterSubscription",
                     "label": "Subscribe to Newsletter",
                     "type": "boolean",
                     "required": true,
-                    "booleanValue": true
+                    "booleanValue": true,
+                    "value": "true"
                 }
             }
         }
