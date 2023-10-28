@@ -1,60 +1,60 @@
 {
-    "websiteName": "Waters-CMS-Test",
-    "websiteUrl": "",
-    "websiteLogoUrl": "",
-    "collections": {
-        "contactInfo": {
-            "label": "Contact Info",
-            "fields": {
-                "phoneNumber": {
-                    "name": "Phone Number",
-                    "label": "Phone Number",
-                    "type": "string",
-                    "required": true,
-                    "value": ""
-                }
-            }
-        },
-        "socialMedia": {
-            "label": "Social Media",
-            "fields": {
-                "facebook": {
-                    "label": "Facebook",
-                    "type": "string",
-                    "required": false,
-                    "value": ""
-                },
-                "instagram": {
-                    "label": "Instagram",
-                    "type": "string",
-                    "required": false,
-                    "value": "mylinkinstagram"
-                }
-            }
-        },
-        "preferences": {
-            "label": "Preferences",
-            "fields": {
-                "language": {
-                    "label": "Preferred Language",
-                    "type": "select",
-                    "required": true,
-                    "options": [
-                        "English",
-                        "Spanish",
-                        "French",
-                        "German"
-                    ],
-                    "value": "French"
-                },
-                "newsletterSubscription": {
-                    "label": "Subscribe to Newsletter",
-                    "type": "boolean",
-                    "required": true,
-                    "booleanValue": true,
-                    "value": "on"
-                }
-            }
+  "websiteName": "Waters-CMS-Test",
+  "websiteUrl": "",
+  "websiteLogoUrl": "",
+  "collections": {
+    "contactInfo": {
+      "label": "Contact Info",
+      "fields": {
+        "phoneNumber": {
+          "name": "Phone Number",
+          "label": "Phone Number",
+          "type": "string",
+          "required": true,
+          "value": ""
         }
+      }
+    },
+    "socialMedia": {
+      "label": "Social Media",
+      "fields": {
+        "facebook": {
+          "label": "Facebook",
+          "type": "string",
+          "required": false,
+          "value": ""
+        },
+        "instagram": {
+          "label": "Instagram",
+          "type": "string",
+          "required": false,
+          "value": "mylinkinstagram"
+        }
+      }
+    },
+    "preferences": {
+      "label": "Preferences",
+      "fields": {
+        "language": {
+          "label": "Preferred Language",
+          "type": "select",
+          "required": true,
+          "options": [
+            "English",
+            "Spanish",
+            "French",
+            "German"
+          ],
+          "value": "French"
+        },
+        "newsletterSubscription": {
+          "label": "Subscribe to Newsletter",
+          "type": "boolean",
+          "required": true,
+          "booleanValue": true,
+          "value": "on"
+        }
+      }
     }
+  }
 }
