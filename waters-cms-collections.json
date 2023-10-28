@@ -3,7 +3,7 @@
     "websiteUrl": "",
     "websiteLogoUrl": "",
     "collections": {
-        "contact-info": {
+        "Contact Info": {
             "label": "Contact Info",
             "fields": {
                 "phoneNumber": {
@@ -15,7 +15,7 @@
                 }
             }
         },
-        "social-media": {
+        "Social Media": {
             "label": "Social Media",
             "fields": {
                 "facebook": {
