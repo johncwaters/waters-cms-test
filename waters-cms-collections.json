@@ -16,7 +16,7 @@
             }
         },
         "socialMedia": {
-            "label": "Social Media",
+            "label": "SocialMedia",
             "fields": {
                 "facebook": {
                     "label": "Facebook",
