@@ -52,7 +52,7 @@
                     "type": "boolean",
                     "required": true,
                     "booleanValue": true,
-                    "value": "true"
+                    "value": "on"
                 }
             }
         }
