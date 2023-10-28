@@ -22,7 +22,7 @@
                     "label": "Facebook",
                     "type": "string",
                     "required": false,
-                    "value": "asdfasdfadsfsa"
+                    "value": ""
                 },
                 "instagram": {
                     "label": "Instagram",
@@ -51,7 +51,8 @@
                     "label": "Subscribe to Newsletter",
                     "type": "boolean",
                     "required": true,
-                    "value": "on"
+                    "booleanValue": true,
+                    "value": "true"
                 }
             }
         }
