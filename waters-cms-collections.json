@@ -3,7 +3,7 @@
     "websiteUrl": "",
     "websiteLogoUrl": "",
     "collections": {
-        "Contact Info": {
+        "contactInfo": {
             "label": "Contact Info",
             "fields": {
                 "phoneNumber": {
@@ -15,13 +15,13 @@
                 }
             }
         },
-        "Social Media": {
+        "socialMedia": {
             "label": "Social Media",
             "fields": {
                 "facebook": {
                     "label": "Facebook",
                     "type": "string",
-                    "required": true,
+                    "required": false,
                     "value": "facebook page here!"
                 },
                 "instagram": {
@@ -47,7 +47,7 @@
                     ],
                     "value": "French"
                 },
-                "newsletter-subscription": {
+                "newsletterSubscription": {
                     "label": "Subscribe to Newsletter",
                     "type": "boolean",
                     "required": true,
