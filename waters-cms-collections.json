@@ -22,7 +22,7 @@
           "label": "Facebook",
           "type": "string",
           "required": true,
-          "value": "facebook page here!"
+          "value": "asdf"
         },
         "instagram": {
           "label": "Instagram",
